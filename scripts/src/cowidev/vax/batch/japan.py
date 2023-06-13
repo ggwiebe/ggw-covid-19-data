@@ -190,6 +190,7 @@ class Japan(CountryVaxBase):
                 "ind": {
                     "all": ["すべて"],
                     "65-": ["うち高齢者(65歳以上)"],
+                    "5-11": ["うち小児接種"],
                 },
                 "metrics": {"dose4": []},
             },
@@ -272,10 +273,14 @@ class Japan(CountryVaxBase):
         dfs = []
         for metric, index in metrics.items():
             # Get, check, convert and rename metric columns
-            df_ = df[tuple(ind + index)].stack().reset_index()
+            df_ = df[tuple(ind + index)]
+            if isinstance(df_, pd.Series):
+                df_ = pd.DataFrame(df_)
+                df_ = df_.rename(columns={"すべて": 0})
+            df_ = df_.stack().reset_index()
             cols_unknown = set(df_.columns) - {date_col, "level_1", 0}
             if cols_unknown:
-                raise ValueError(f"Unknown columns: {cols_unknown}")
+                raise ValueError(f"Unknown columns: {cols_unknown}, {df_.columns}")
             df_[0] = pd.to_numeric(df_[0], errors="coerce")
             dfs.append(df_.rename(columns={date_col: "date", "level_1": "vaccine", 0: metric}))
         while len(dfs) > 1:
@@ -380,10 +385,13 @@ def _fix_general_4(df: pd.DataFrame):
         and pd.isnull(df.loc[0, "Unnamed: 9"])
         and pd.isnull(df.loc[1, "Unnamed: 9"])
         and (df.loc[2, "Unnamed: 9"] == "うち高齢者（65歳以上）")
+        and pd.isnull(df.loc[0, df.columns[-1]])
+        and (df.loc[1, df.columns[-1]] == "うち小児接種")
     )
     # Shift row values up
     df.loc[[0, 1], "Unnamed: 2"] = ["すべて", np.nan]
     df.loc[[0, 2], "Unnamed: 9"] = ["うち高齢者（65歳以上）", np.nan]
+    df.loc[[0, 1], df.columns[-1]] = ["うち小児接種", np.nan]
     df = df.drop(columns=["Unnamed: 6", "Unnamed: 7", "Unnamed: 8"])
     # Remove all-NaN rows
     df = df.dropna(how="all", axis=0)

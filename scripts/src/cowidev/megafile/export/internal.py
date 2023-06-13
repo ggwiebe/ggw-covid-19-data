@@ -57,12 +57,12 @@ internal_files_columns = {
             "location",
             "date",
             "total_deaths",
+            "total_deaths_per_million",
             "total_deaths_last12m",
             "total_deaths_last12m_per_million",
             "new_deaths",
-            "new_deaths_smoothed",
-            "total_deaths_per_million",
             "new_deaths_per_million",
+            "new_deaths_smoothed",
             "new_deaths_smoothed_per_million",
             "cfr",
             "cfr_short_term",
@@ -166,6 +166,13 @@ internal_files_columns = {
             "cumulative_estimated_daily_excess_deaths_ci_95_top_last12m_per_100k",
             "cumulative_estimated_daily_excess_deaths_ci_95_bot_last12m",
             "cumulative_estimated_daily_excess_deaths_ci_95_bot_last12m_per_100k",
+            # Add confirmed deaths so we can plot them together in the Explorer
+            "total_deaths",
+            "total_deaths_per_million",
+            "total_deaths_last12m",
+            "total_deaths_last12m_per_million",
+            "new_deaths_smoothed",
+            "new_deaths_smoothed_per_million",
         ],
         "dropna": "all",
     },
@@ -218,7 +225,9 @@ internal_files_columns = {
 }
 
 
-def create_internal(df: pd.DataFrame, output_dir: str, annotations_path: str, country_data: str, logger):
+def create_internal(
+    df: pd.DataFrame, output_dir: str, annotations_path: str, country_data: str, logger, categories_filter=None
+):
     # Ensure internal/ dir is created
     os.makedirs(output_dir, exist_ok=True)
 
@@ -255,8 +264,7 @@ def create_internal(df: pd.DataFrame, output_dir: str, annotations_path: str, co
     # Add total vaccinations without boosters
     df = df.pipe(add_total_vaccinations_no_boosters)
 
-    # Export
-    for name, config in internal_files_columns.items():
+    def _export_internal(output_dir, name, config, annotator):
         output_path = os.path.join(output_dir, f"megafile--{name}.json")
         value_columns = list(set(config["columns"]) - set(non_value_columns))
         df_output = df[config["columns"]]
@@ -265,6 +273,14 @@ def create_internal(df: pd.DataFrame, output_dir: str, annotations_path: str, co
         df_output = df_output.dropna(subset=value_columns, how=config["dropna"])
         df_output = annotator.add_annotations(df_output, name)
         df_to_columnar_json(df_output, output_path)
+
+    # Export
+    for name, config in internal_files_columns.items():
+        if categories_filter:
+            if name in categories_filter:
+                _export_internal(output_dir, name, config, annotator)
+        else:
+            _export_internal(output_dir, name, config, annotator)
 
 
 def add_partially_vaccinated(df: pd.DataFrame, country_data: str):

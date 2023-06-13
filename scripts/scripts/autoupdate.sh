@@ -50,7 +50,7 @@ git reset --hard origin/master && git pull
 
 
 # =====================================================================
-# JHU
+# Cases & Deaths
 
 # Attempt to download JHU CSVs
 cowid jhu get
@@ -63,6 +63,14 @@ if has_changed './scripts/input/jhu/*'; then
   git_push "jhu"
 else
   echo "JHU export is up to date"
+fi
+
+hour=$(date +%H)
+if [ $hour == 00 ] || [ $hour == 06] || [ $hour == 12] || [ $hour == 18] ; then
+  echo "Generating Case/Death files..."
+  cowid --server casedeath generate
+  # python $SCRIPTS_DIR/scripts/jhu.py --skip-download
+  git_push "case-death"
 fi
 
 # =====================================================================
@@ -104,7 +112,6 @@ if [ $hour == 07 ] ; then
   cowid --server vax process generate
   git_push "vax"
 fi
-
 
 # =====================================================================
 # Google Mobility
@@ -175,7 +182,7 @@ fi
 # Excess Mortality
 hour=$(date +%H)
 if [ $hour == 21 ] ; then
-  echo "Generating CoVariants dataset..."
+  echo "Generating XM dataset..."
   cowid --server xm generate
   git_push "xm"
 fi

@@ -38,7 +38,11 @@ class Ireland(CountryVaxBase):
             }
             for x in data["features"]
         ]
-        return pd.DataFrame.from_records(records)
+        df = pd.DataFrame.from_records(records)
+        # Sort
+        df = df.sort_values("date")
+        df = df.pipe(self.pipe_date)
+        return df
 
     def _parse_data_boosters(self, data: dict) -> int:
         records = [
@@ -49,7 +53,11 @@ class Ireland(CountryVaxBase):
             }
             for x in data["features"]
         ]
-        return pd.DataFrame.from_records(records)
+        df = pd.DataFrame.from_records(records)
+        # Sort
+        df = df.sort_values("date")
+        df = df.pipe(self.pipe_date)
+        return df
 
     def pipe_metrics(self, df: pd.DataFrame) -> pd.DataFrame:
         return df.assign(
@@ -81,7 +89,25 @@ class Ireland(CountryVaxBase):
         return df.assign(source_url=self.source_url_ref, location=self.location)
 
     def pipe_filter(self, df: pd.DataFrame) -> pd.DataFrame:
-        msk = df.date.isin(["2022-03-17", "2022-04-16", "2022-10-31", "2022-12-24", "2022-12-26", "2022-12-27", "2023-01-01", "2023-01-02",])
+        msk = df.date.isin(
+            [
+                "2022-03-17",
+                "2022-04-16",
+                "2022-10-31",
+                "2022-12-24",
+                "2022-12-26",
+                "2022-12-27",
+                "2023-01-01",
+                "2023-01-02",
+                "2023-03-17",
+                "2023-04-08",
+                "2023-04-09",
+                "2023-04-23",
+                "2023-04-24",
+                "2023-04-30",
+            ]
+        )
+        # for col in ["total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "total_boosters"]:
         if (df.loc[msk, ["people_vaccinated", "people_fully_vaccinated"]] == 0).any(axis=None):
             df = df.loc[~msk]
         return df
@@ -90,7 +116,7 @@ class Ireland(CountryVaxBase):
         return (
             df.fillna(0)
             .pipe(self.pipe_metrics)
-            .pipe(self.pipe_date)
+            # .pipe(self.pipe_date)
             .pipe(self.pipe_metadata)
             .pipe(self.pipe_vaccine)
             .pipe(self.pipe_filter)

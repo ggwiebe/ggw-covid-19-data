@@ -866,44 +866,184 @@ date,indicator,value,entity
 2022-12-13,Daily hospital occupancy,4260.0,Spain
 2022-12-14,Daily hospital occupancy,4150.0,Spain
 2022-12-15,Daily hospital occupancy,4095.0,Spain
-2022-12-16,Daily hospital occupancy,4042.0,Spain
-2022-12-17,Daily hospital occupancy,3991.0,Spain
-2022-12-18,Daily hospital occupancy,4200.0,Spain
-2022-12-19,Daily hospital occupancy,4066.0,Spain
-2022-12-20,Daily hospital occupancy,3930.0,Spain
-2022-12-21,Daily hospital occupancy,3859.0,Spain
-2022-12-22,Daily hospital occupancy,3606.0,Spain
-2022-12-23,Daily hospital occupancy,3566.0,Spain
-2022-12-24,Daily hospital occupancy,3541.0,Spain
-2022-12-25,Daily hospital occupancy,3198.0,Spain
-2022-12-26,Daily hospital occupancy,3294.0,Spain
-2022-12-27,Daily hospital occupancy,3482.0,Spain
-2022-12-28,Daily hospital occupancy,3451.0,Spain
-2022-12-29,Daily hospital occupancy,3403.0,Spain
-2022-12-30,Daily hospital occupancy,3384.0,Spain
-2022-12-31,Daily hospital occupancy,3323.0,Spain
-2023-01-01,Daily hospital occupancy,3209.0,Spain
-2023-01-02,Daily hospital occupancy,3289.0,Spain
-2023-01-03,Daily hospital occupancy,3367.0,Spain
-2023-01-04,Daily hospital occupancy,3360.0,Spain
-2023-01-05,Daily hospital occupancy,3342.0,Spain
-2023-01-06,Daily hospital occupancy,3330.0,Spain
-2023-01-07,Daily hospital occupancy,3269.0,Spain
-2023-01-08,Daily hospital occupancy,3367.0,Spain
-2023-01-09,Daily hospital occupancy,3500.0,Spain
-2023-01-10,Daily hospital occupancy,3349.0,Spain
-2023-01-11,Daily hospital occupancy,3249.0,Spain
-2023-01-12,Daily hospital occupancy,3125.0,Spain
-2023-01-13,Daily hospital occupancy,3074.0,Spain
-2023-01-14,Daily hospital occupancy,3058.0,Spain
-2023-01-15,Daily hospital occupancy,3023.0,Spain
-2023-01-16,Daily hospital occupancy,2860.0,Spain
-2023-01-17,Daily hospital occupancy,2746.0,Spain
-2023-01-18,Daily hospital occupancy,2636.0,Spain
-2023-01-19,Daily hospital occupancy,2556.0,Spain
-2023-01-20,Daily hospital occupancy,2552.0,Spain
-2023-01-21,Daily hospital occupancy,2536.0,Spain
-2023-01-22,Daily hospital occupancy,2512.0,Spain
+2022-12-16,Daily hospital occupancy,4109.0,Spain
+2022-12-17,Daily hospital occupancy,4112.0,Spain
+2022-12-18,Daily hospital occupancy,4273.0,Spain
+2022-12-19,Daily hospital occupancy,4130.0,Spain
+2022-12-20,Daily hospital occupancy,3936.0,Spain
+2022-12-21,Daily hospital occupancy,3861.0,Spain
+2022-12-22,Daily hospital occupancy,3623.0,Spain
+2022-12-23,Daily hospital occupancy,3601.0,Spain
+2022-12-24,Daily hospital occupancy,3607.0,Spain
+2022-12-25,Daily hospital occupancy,3604.0,Spain
+2022-12-26,Daily hospital occupancy,3568.0,Spain
+2022-12-27,Daily hospital occupancy,3538.0,Spain
+2022-12-28,Daily hospital occupancy,3477.0,Spain
+2022-12-29,Daily hospital occupancy,3442.0,Spain
+2022-12-30,Daily hospital occupancy,3425.0,Spain
+2022-12-31,Daily hospital occupancy,3409.0,Spain
+2023-01-01,Daily hospital occupancy,3301.0,Spain
+2023-01-02,Daily hospital occupancy,3396.0,Spain
+2023-01-03,Daily hospital occupancy,3432.0,Spain
+2023-01-04,Daily hospital occupancy,3417.0,Spain
+2023-01-05,Daily hospital occupancy,3403.0,Spain
+2023-01-06,Daily hospital occupancy,3406.0,Spain
+2023-01-07,Daily hospital occupancy,3407.0,Spain
+2023-01-08,Daily hospital occupancy,3585.0,Spain
+2023-01-09,Daily hospital occupancy,3544.0,Spain
+2023-01-10,Daily hospital occupancy,3369.0,Spain
+2023-01-11,Daily hospital occupancy,3283.0,Spain
+2023-01-12,Daily hospital occupancy,3133.0,Spain
+2023-01-13,Daily hospital occupancy,3114.0,Spain
+2023-01-14,Daily hospital occupancy,3115.0,Spain
+2023-01-15,Daily hospital occupancy,3070.0,Spain
+2023-01-16,Daily hospital occupancy,2983.0,Spain
+2023-01-17,Daily hospital occupancy,2799.0,Spain
+2023-01-18,Daily hospital occupancy,2690.0,Spain
+2023-01-19,Daily hospital occupancy,2601.0,Spain
+2023-01-20,Daily hospital occupancy,2596.0,Spain
+2023-01-21,Daily hospital occupancy,2596.0,Spain
+2023-01-22,Daily hospital occupancy,2510.0,Spain
+2023-01-23,Daily hospital occupancy,2396.0,Spain
+2023-01-24,Daily hospital occupancy,2311.0,Spain
+2023-01-25,Daily hospital occupancy,2163.0,Spain
+2023-01-26,Daily hospital occupancy,2116.0,Spain
+2023-01-27,Daily hospital occupancy,2104.0,Spain
+2023-01-28,Daily hospital occupancy,2103.0,Spain
+2023-01-29,Daily hospital occupancy,2112.0,Spain
+2023-01-30,Daily hospital occupancy,2022.0,Spain
+2023-01-31,Daily hospital occupancy,1973.0,Spain
+2023-02-01,Daily hospital occupancy,1902.0,Spain
+2023-02-02,Daily hospital occupancy,1863.0,Spain
+2023-02-03,Daily hospital occupancy,1844.0,Spain
+2023-02-04,Daily hospital occupancy,1842.0,Spain
+2023-02-05,Daily hospital occupancy,1863.0,Spain
+2023-02-06,Daily hospital occupancy,1859.0,Spain
+2023-02-07,Daily hospital occupancy,1836.0,Spain
+2023-02-08,Daily hospital occupancy,1768.0,Spain
+2023-02-09,Daily hospital occupancy,1745.0,Spain
+2023-02-10,Daily hospital occupancy,1754.0,Spain
+2023-02-11,Daily hospital occupancy,1756.0,Spain
+2023-02-12,Daily hospital occupancy,1821.0,Spain
+2023-02-13,Daily hospital occupancy,1765.0,Spain
+2023-02-14,Daily hospital occupancy,1759.0,Spain
+2023-02-15,Daily hospital occupancy,1706.0,Spain
+2023-02-16,Daily hospital occupancy,1686.0,Spain
+2023-02-17,Daily hospital occupancy,1679.0,Spain
+2023-02-18,Daily hospital occupancy,1676.0,Spain
+2023-02-19,Daily hospital occupancy,1790.0,Spain
+2023-02-20,Daily hospital occupancy,1798.0,Spain
+2023-02-21,Daily hospital occupancy,1782.0,Spain
+2023-02-22,Daily hospital occupancy,1791.0,Spain
+2023-02-23,Daily hospital occupancy,1796.0,Spain
+2023-02-24,Daily hospital occupancy,1798.0,Spain
+2023-02-25,Daily hospital occupancy,1800.0,Spain
+2023-02-26,Daily hospital occupancy,1871.0,Spain
+2023-02-27,Daily hospital occupancy,1798.0,Spain
+2023-02-28,Daily hospital occupancy,1768.0,Spain
+2023-03-01,Daily hospital occupancy,1744.0,Spain
+2023-03-02,Daily hospital occupancy,1722.0,Spain
+2023-03-03,Daily hospital occupancy,1718.0,Spain
+2023-03-04,Daily hospital occupancy,1720.0,Spain
+2023-03-05,Daily hospital occupancy,1791.0,Spain
+2023-03-06,Daily hospital occupancy,1824.0,Spain
+2023-03-07,Daily hospital occupancy,1853.0,Spain
+2023-03-08,Daily hospital occupancy,1912.0,Spain
+2023-03-09,Daily hospital occupancy,1974.0,Spain
+2023-03-10,Daily hospital occupancy,1979.0,Spain
+2023-03-11,Daily hospital occupancy,1978.0,Spain
+2023-03-12,Daily hospital occupancy,2181.0,Spain
+2023-03-13,Daily hospital occupancy,2155.0,Spain
+2023-03-14,Daily hospital occupancy,2095.0,Spain
+2023-03-15,Daily hospital occupancy,2045.0,Spain
+2023-03-16,Daily hospital occupancy,1973.0,Spain
+2023-03-17,Daily hospital occupancy,1967.0,Spain
+2023-03-18,Daily hospital occupancy,1976.0,Spain
+2023-03-19,Daily hospital occupancy,1990.0,Spain
+2023-03-20,Daily hospital occupancy,1921.0,Spain
+2023-03-21,Daily hospital occupancy,1873.0,Spain
+2023-03-22,Daily hospital occupancy,1857.0,Spain
+2023-03-23,Daily hospital occupancy,1831.0,Spain
+2023-03-24,Daily hospital occupancy,1820.0,Spain
+2023-03-25,Daily hospital occupancy,1815.0,Spain
+2023-03-26,Daily hospital occupancy,1946.0,Spain
+2023-03-27,Daily hospital occupancy,1975.0,Spain
+2023-03-28,Daily hospital occupancy,1962.0,Spain
+2023-03-29,Daily hospital occupancy,1948.0,Spain
+2023-03-30,Daily hospital occupancy,1907.0,Spain
+2023-03-31,Daily hospital occupancy,1903.0,Spain
+2023-04-01,Daily hospital occupancy,1909.0,Spain
+2023-04-02,Daily hospital occupancy,1918.0,Spain
+2023-04-03,Daily hospital occupancy,1918.0,Spain
+2023-04-04,Daily hospital occupancy,1829.0,Spain
+2023-04-05,Daily hospital occupancy,1794.0,Spain
+2023-04-06,Daily hospital occupancy,1794.0,Spain
+2023-04-07,Daily hospital occupancy,1793.0,Spain
+2023-04-08,Daily hospital occupancy,1793.0,Spain
+2023-04-09,Daily hospital occupancy,1844.0,Spain
+2023-04-10,Daily hospital occupancy,2053.0,Spain
+2023-04-11,Daily hospital occupancy,2085.0,Spain
+2023-04-12,Daily hospital occupancy,2030.0,Spain
+2023-04-13,Daily hospital occupancy,2014.0,Spain
+2023-04-14,Daily hospital occupancy,2026.0,Spain
+2023-04-15,Daily hospital occupancy,2025.0,Spain
+2023-04-16,Daily hospital occupancy,2217.0,Spain
+2023-04-17,Daily hospital occupancy,2253.0,Spain
+2023-04-18,Daily hospital occupancy,2232.0,Spain
+2023-04-19,Daily hospital occupancy,2214.0,Spain
+2023-04-20,Daily hospital occupancy,2229.0,Spain
+2023-04-21,Daily hospital occupancy,2231.0,Spain
+2023-04-22,Daily hospital occupancy,2231.0,Spain
+2023-04-23,Daily hospital occupancy,2338.0,Spain
+2023-04-24,Daily hospital occupancy,2344.0,Spain
+2023-04-25,Daily hospital occupancy,2314.0,Spain
+2023-04-26,Daily hospital occupancy,2273.0,Spain
+2023-04-27,Daily hospital occupancy,2225.0,Spain
+2023-04-28,Daily hospital occupancy,2234.0,Spain
+2023-04-29,Daily hospital occupancy,2237.0,Spain
+2023-04-30,Daily hospital occupancy,2239.0,Spain
+2023-05-01,Daily hospital occupancy,2298.0,Spain
+2023-05-02,Daily hospital occupancy,2386.0,Spain
+2023-05-03,Daily hospital occupancy,2405.0,Spain
+2023-05-04,Daily hospital occupancy,2327.0,Spain
+2023-05-05,Daily hospital occupancy,2322.0,Spain
+2023-05-06,Daily hospital occupancy,2322.0,Spain
+2023-05-07,Daily hospital occupancy,2339.0,Spain
+2023-05-08,Daily hospital occupancy,2341.0,Spain
+2023-05-09,Daily hospital occupancy,2309.0,Spain
+2023-05-10,Daily hospital occupancy,2291.0,Spain
+2023-05-11,Daily hospital occupancy,2210.0,Spain
+2023-05-12,Daily hospital occupancy,2210.0,Spain
+2023-05-13,Daily hospital occupancy,2212.0,Spain
+2023-05-14,Daily hospital occupancy,2297.0,Spain
+2023-05-15,Daily hospital occupancy,2301.0,Spain
+2023-05-16,Daily hospital occupancy,2304.0,Spain
+2023-05-17,Daily hospital occupancy,2250.0,Spain
+2023-05-18,Daily hospital occupancy,2255.0,Spain
+2023-05-19,Daily hospital occupancy,2251.0,Spain
+2023-05-20,Daily hospital occupancy,2250.0,Spain
+2023-05-21,Daily hospital occupancy,2315.0,Spain
+2023-05-22,Daily hospital occupancy,2295.0,Spain
+2023-05-23,Daily hospital occupancy,2235.0,Spain
+2023-05-24,Daily hospital occupancy,2247.0,Spain
+2023-05-25,Daily hospital occupancy,2282.0,Spain
+2023-05-26,Daily hospital occupancy,2278.0,Spain
+2023-05-27,Daily hospital occupancy,2280.0,Spain
+2023-05-28,Daily hospital occupancy,2410.0,Spain
+2023-05-29,Daily hospital occupancy,2358.0,Spain
+2023-05-30,Daily hospital occupancy,2283.0,Spain
+2023-05-31,Daily hospital occupancy,2217.0,Spain
+2023-06-01,Daily hospital occupancy,2189.0,Spain
+2023-06-02,Daily hospital occupancy,2185.0,Spain
+2023-06-03,Daily hospital occupancy,2259.0,Spain
+2023-06-04,Daily hospital occupancy,2218.0,Spain
+2023-06-05,Daily hospital occupancy,2141.0,Spain
+2023-06-06,Daily hospital occupancy,2030.0,Spain
+2023-06-07,Daily hospital occupancy,1966.0,Spain
+2023-06-08,Daily hospital occupancy,2164.0,Spain
+2023-06-09,Daily hospital occupancy,2162.0,Spain
+2023-06-10,Daily hospital occupancy,2167.0,Spain
+2023-06-11,Daily hospital occupancy,1884.0,Spain
 2020-08-01,Daily ICU occupancy,250.0,Spain
 2020-08-02,Daily ICU occupancy,282.0,Spain
 2020-08-03,Daily ICU occupancy,293.0,Spain
@@ -1771,44 +1911,184 @@ date,indicator,value,entity
 2022-12-13,Daily ICU occupancy,260.0,Spain
 2022-12-14,Daily ICU occupancy,268.0,Spain
 2022-12-15,Daily ICU occupancy,254.0,Spain
-2022-12-16,Daily ICU occupancy,252.0,Spain
-2022-12-17,Daily ICU occupancy,250.0,Spain
-2022-12-18,Daily ICU occupancy,259.0,Spain
-2022-12-19,Daily ICU occupancy,258.0,Spain
-2022-12-20,Daily ICU occupancy,242.0,Spain
-2022-12-21,Daily ICU occupancy,233.0,Spain
-2022-12-22,Daily ICU occupancy,244.0,Spain
-2022-12-23,Daily ICU occupancy,244.0,Spain
-2022-12-24,Daily ICU occupancy,244.0,Spain
-2022-12-25,Daily ICU occupancy,222.0,Spain
-2022-12-26,Daily ICU occupancy,231.0,Spain
+2022-12-16,Daily ICU occupancy,256.0,Spain
+2022-12-17,Daily ICU occupancy,255.0,Spain
+2022-12-18,Daily ICU occupancy,265.0,Spain
+2022-12-19,Daily ICU occupancy,260.0,Spain
+2022-12-20,Daily ICU occupancy,243.0,Spain
+2022-12-21,Daily ICU occupancy,232.0,Spain
+2022-12-22,Daily ICU occupancy,246.0,Spain
+2022-12-23,Daily ICU occupancy,248.0,Spain
+2022-12-24,Daily ICU occupancy,249.0,Spain
+2022-12-25,Daily ICU occupancy,246.0,Spain
+2022-12-26,Daily ICU occupancy,238.0,Spain
 2022-12-27,Daily ICU occupancy,235.0,Spain
-2022-12-28,Daily ICU occupancy,236.0,Spain
+2022-12-28,Daily ICU occupancy,237.0,Spain
 2022-12-29,Daily ICU occupancy,233.0,Spain
 2022-12-30,Daily ICU occupancy,236.0,Spain
-2022-12-31,Daily ICU occupancy,230.0,Spain
-2023-01-01,Daily ICU occupancy,222.0,Spain
-2023-01-02,Daily ICU occupancy,224.0,Spain
-2023-01-03,Daily ICU occupancy,225.0,Spain
-2023-01-04,Daily ICU occupancy,219.0,Spain
-2023-01-05,Daily ICU occupancy,217.0,Spain
-2023-01-06,Daily ICU occupancy,219.0,Spain
-2023-01-07,Daily ICU occupancy,212.0,Spain
-2023-01-08,Daily ICU occupancy,214.0,Spain
+2022-12-31,Daily ICU occupancy,235.0,Spain
+2023-01-01,Daily ICU occupancy,228.0,Spain
+2023-01-02,Daily ICU occupancy,233.0,Spain
+2023-01-03,Daily ICU occupancy,229.0,Spain
+2023-01-04,Daily ICU occupancy,224.0,Spain
+2023-01-05,Daily ICU occupancy,222.0,Spain
+2023-01-06,Daily ICU occupancy,226.0,Spain
+2023-01-07,Daily ICU occupancy,226.0,Spain
+2023-01-08,Daily ICU occupancy,232.0,Spain
 2023-01-09,Daily ICU occupancy,224.0,Spain
 2023-01-10,Daily ICU occupancy,229.0,Spain
-2023-01-11,Daily ICU occupancy,221.0,Spain
-2023-01-12,Daily ICU occupancy,219.0,Spain
-2023-01-13,Daily ICU occupancy,213.0,Spain
-2023-01-14,Daily ICU occupancy,209.0,Spain
-2023-01-15,Daily ICU occupancy,208.0,Spain
-2023-01-16,Daily ICU occupancy,213.0,Spain
-2023-01-17,Daily ICU occupancy,205.0,Spain
-2023-01-18,Daily ICU occupancy,207.0,Spain
-2023-01-19,Daily ICU occupancy,193.0,Spain
-2023-01-20,Daily ICU occupancy,193.0,Spain
-2023-01-21,Daily ICU occupancy,191.0,Spain
-2023-01-22,Daily ICU occupancy,198.0,Spain
+2023-01-11,Daily ICU occupancy,223.0,Spain
+2023-01-12,Daily ICU occupancy,220.0,Spain
+2023-01-13,Daily ICU occupancy,219.0,Spain
+2023-01-14,Daily ICU occupancy,216.0,Spain
+2023-01-15,Daily ICU occupancy,217.0,Spain
+2023-01-16,Daily ICU occupancy,222.0,Spain
+2023-01-17,Daily ICU occupancy,212.0,Spain
+2023-01-18,Daily ICU occupancy,213.0,Spain
+2023-01-19,Daily ICU occupancy,200.0,Spain
+2023-01-20,Daily ICU occupancy,199.0,Spain
+2023-01-21,Daily ICU occupancy,199.0,Spain
+2023-01-22,Daily ICU occupancy,197.0,Spain
+2023-01-23,Daily ICU occupancy,189.0,Spain
+2023-01-24,Daily ICU occupancy,178.0,Spain
+2023-01-25,Daily ICU occupancy,177.0,Spain
+2023-01-26,Daily ICU occupancy,172.0,Spain
+2023-01-27,Daily ICU occupancy,171.0,Spain
+2023-01-28,Daily ICU occupancy,170.0,Spain
+2023-01-29,Daily ICU occupancy,168.0,Spain
+2023-01-30,Daily ICU occupancy,164.0,Spain
+2023-01-31,Daily ICU occupancy,153.0,Spain
+2023-02-01,Daily ICU occupancy,149.0,Spain
+2023-02-02,Daily ICU occupancy,138.0,Spain
+2023-02-03,Daily ICU occupancy,135.0,Spain
+2023-02-04,Daily ICU occupancy,136.0,Spain
+2023-02-05,Daily ICU occupancy,132.0,Spain
+2023-02-06,Daily ICU occupancy,122.0,Spain
+2023-02-07,Daily ICU occupancy,113.0,Spain
+2023-02-08,Daily ICU occupancy,112.0,Spain
+2023-02-09,Daily ICU occupancy,109.0,Spain
+2023-02-10,Daily ICU occupancy,109.0,Spain
+2023-02-11,Daily ICU occupancy,109.0,Spain
+2023-02-12,Daily ICU occupancy,114.0,Spain
+2023-02-13,Daily ICU occupancy,121.0,Spain
+2023-02-14,Daily ICU occupancy,126.0,Spain
+2023-02-15,Daily ICU occupancy,116.0,Spain
+2023-02-16,Daily ICU occupancy,112.0,Spain
+2023-02-17,Daily ICU occupancy,112.0,Spain
+2023-02-18,Daily ICU occupancy,114.0,Spain
+2023-02-19,Daily ICU occupancy,106.0,Spain
+2023-02-20,Daily ICU occupancy,97.0,Spain
+2023-02-21,Daily ICU occupancy,95.0,Spain
+2023-02-22,Daily ICU occupancy,95.0,Spain
+2023-02-23,Daily ICU occupancy,91.0,Spain
+2023-02-24,Daily ICU occupancy,90.0,Spain
+2023-02-25,Daily ICU occupancy,91.0,Spain
+2023-02-26,Daily ICU occupancy,90.0,Spain
+2023-02-27,Daily ICU occupancy,90.0,Spain
+2023-02-28,Daily ICU occupancy,97.0,Spain
+2023-03-01,Daily ICU occupancy,84.0,Spain
+2023-03-02,Daily ICU occupancy,93.0,Spain
+2023-03-03,Daily ICU occupancy,94.0,Spain
+2023-03-04,Daily ICU occupancy,94.0,Spain
+2023-03-05,Daily ICU occupancy,98.0,Spain
+2023-03-06,Daily ICU occupancy,96.0,Spain
+2023-03-07,Daily ICU occupancy,106.0,Spain
+2023-03-08,Daily ICU occupancy,93.0,Spain
+2023-03-09,Daily ICU occupancy,87.0,Spain
+2023-03-10,Daily ICU occupancy,87.0,Spain
+2023-03-11,Daily ICU occupancy,88.0,Spain
+2023-03-12,Daily ICU occupancy,97.0,Spain
+2023-03-13,Daily ICU occupancy,99.0,Spain
+2023-03-14,Daily ICU occupancy,96.0,Spain
+2023-03-15,Daily ICU occupancy,91.0,Spain
+2023-03-16,Daily ICU occupancy,95.0,Spain
+2023-03-17,Daily ICU occupancy,94.0,Spain
+2023-03-18,Daily ICU occupancy,94.0,Spain
+2023-03-19,Daily ICU occupancy,98.0,Spain
+2023-03-20,Daily ICU occupancy,108.0,Spain
+2023-03-21,Daily ICU occupancy,108.0,Spain
+2023-03-22,Daily ICU occupancy,103.0,Spain
+2023-03-23,Daily ICU occupancy,112.0,Spain
+2023-03-24,Daily ICU occupancy,113.0,Spain
+2023-03-25,Daily ICU occupancy,114.0,Spain
+2023-03-26,Daily ICU occupancy,104.0,Spain
+2023-03-27,Daily ICU occupancy,104.0,Spain
+2023-03-28,Daily ICU occupancy,99.0,Spain
+2023-03-29,Daily ICU occupancy,100.0,Spain
+2023-03-30,Daily ICU occupancy,92.0,Spain
+2023-03-31,Daily ICU occupancy,92.0,Spain
+2023-04-01,Daily ICU occupancy,92.0,Spain
+2023-04-02,Daily ICU occupancy,90.0,Spain
+2023-04-03,Daily ICU occupancy,94.0,Spain
+2023-04-04,Daily ICU occupancy,102.0,Spain
+2023-04-05,Daily ICU occupancy,101.0,Spain
+2023-04-06,Daily ICU occupancy,101.0,Spain
+2023-04-07,Daily ICU occupancy,101.0,Spain
+2023-04-08,Daily ICU occupancy,101.0,Spain
+2023-04-09,Daily ICU occupancy,107.0,Spain
+2023-04-10,Daily ICU occupancy,106.0,Spain
+2023-04-11,Daily ICU occupancy,108.0,Spain
+2023-04-12,Daily ICU occupancy,112.0,Spain
+2023-04-13,Daily ICU occupancy,109.0,Spain
+2023-04-14,Daily ICU occupancy,110.0,Spain
+2023-04-15,Daily ICU occupancy,109.0,Spain
+2023-04-16,Daily ICU occupancy,105.0,Spain
+2023-04-17,Daily ICU occupancy,106.0,Spain
+2023-04-18,Daily ICU occupancy,108.0,Spain
+2023-04-19,Daily ICU occupancy,105.0,Spain
+2023-04-20,Daily ICU occupancy,110.0,Spain
+2023-04-21,Daily ICU occupancy,110.0,Spain
+2023-04-22,Daily ICU occupancy,111.0,Spain
+2023-04-23,Daily ICU occupancy,120.0,Spain
+2023-04-24,Daily ICU occupancy,112.0,Spain
+2023-04-25,Daily ICU occupancy,100.0,Spain
+2023-04-26,Daily ICU occupancy,97.0,Spain
+2023-04-27,Daily ICU occupancy,96.0,Spain
+2023-04-28,Daily ICU occupancy,96.0,Spain
+2023-04-29,Daily ICU occupancy,96.0,Spain
+2023-04-30,Daily ICU occupancy,96.0,Spain
+2023-05-01,Daily ICU occupancy,95.0,Spain
+2023-05-02,Daily ICU occupancy,104.0,Spain
+2023-05-03,Daily ICU occupancy,111.0,Spain
+2023-05-04,Daily ICU occupancy,119.0,Spain
+2023-05-05,Daily ICU occupancy,119.0,Spain
+2023-05-06,Daily ICU occupancy,119.0,Spain
+2023-05-07,Daily ICU occupancy,128.0,Spain
+2023-05-08,Daily ICU occupancy,111.0,Spain
+2023-05-09,Daily ICU occupancy,109.0,Spain
+2023-05-10,Daily ICU occupancy,111.0,Spain
+2023-05-11,Daily ICU occupancy,112.0,Spain
+2023-05-12,Daily ICU occupancy,111.0,Spain
+2023-05-13,Daily ICU occupancy,111.0,Spain
+2023-05-14,Daily ICU occupancy,118.0,Spain
+2023-05-15,Daily ICU occupancy,117.0,Spain
+2023-05-16,Daily ICU occupancy,107.0,Spain
+2023-05-17,Daily ICU occupancy,105.0,Spain
+2023-05-18,Daily ICU occupancy,112.0,Spain
+2023-05-19,Daily ICU occupancy,112.0,Spain
+2023-05-20,Daily ICU occupancy,112.0,Spain
+2023-05-21,Daily ICU occupancy,108.0,Spain
+2023-05-22,Daily ICU occupancy,117.0,Spain
+2023-05-23,Daily ICU occupancy,128.0,Spain
+2023-05-24,Daily ICU occupancy,121.0,Spain
+2023-05-25,Daily ICU occupancy,118.0,Spain
+2023-05-26,Daily ICU occupancy,117.0,Spain
+2023-05-27,Daily ICU occupancy,117.0,Spain
+2023-05-28,Daily ICU occupancy,126.0,Spain
+2023-05-29,Daily ICU occupancy,129.0,Spain
+2023-05-30,Daily ICU occupancy,133.0,Spain
+2023-05-31,Daily ICU occupancy,136.0,Spain
+2023-06-01,Daily ICU occupancy,125.0,Spain
+2023-06-02,Daily ICU occupancy,123.0,Spain
+2023-06-03,Daily ICU occupancy,122.0,Spain
+2023-06-04,Daily ICU occupancy,117.0,Spain
+2023-06-05,Daily ICU occupancy,129.0,Spain
+2023-06-06,Daily ICU occupancy,121.0,Spain
+2023-06-07,Daily ICU occupancy,122.0,Spain
+2023-06-08,Daily ICU occupancy,123.0,Spain
+2023-06-09,Daily ICU occupancy,124.0,Spain
+2023-06-10,Daily ICU occupancy,125.0,Spain
+2023-06-11,Daily ICU occupancy,114.0,Spain
 2020-08-07,Weekly new hospital admissions,2768.0,Spain
 2020-08-08,Weekly new hospital admissions,2830.0,Spain
 2020-08-09,Weekly new hospital admissions,2879.0,Spain
@@ -2670,44 +2950,184 @@ date,indicator,value,entity
 2022-12-13,Weekly new hospital admissions,3504.0,Spain
 2022-12-14,Weekly new hospital admissions,3524.0,Spain
 2022-12-15,Weekly new hospital admissions,3539.0,Spain
-2022-12-16,Weekly new hospital admissions,3552.0,Spain
-2022-12-17,Weekly new hospital admissions,3586.0,Spain
-2022-12-18,Weekly new hospital admissions,3438.0,Spain
-2022-12-19,Weekly new hospital admissions,3385.0,Spain
-2022-12-20,Weekly new hospital admissions,3310.0,Spain
-2022-12-21,Weekly new hospital admissions,3259.0,Spain
-2022-12-22,Weekly new hospital admissions,3181.0,Spain
-2022-12-23,Weekly new hospital admissions,3087.0,Spain
-2022-12-24,Weekly new hospital admissions,3008.0,Spain
-2022-12-25,Weekly new hospital admissions,2957.0,Spain
-2022-12-26,Weekly new hospital admissions,2948.0,Spain
-2022-12-27,Weekly new hospital admissions,2931.0,Spain
-2022-12-28,Weekly new hospital admissions,2954.0,Spain
-2022-12-29,Weekly new hospital admissions,2950.0,Spain
-2022-12-30,Weekly new hospital admissions,2957.0,Spain
-2022-12-31,Weekly new hospital admissions,2952.0,Spain
-2023-01-01,Weekly new hospital admissions,2928.0,Spain
-2023-01-02,Weekly new hospital admissions,2957.0,Spain
-2023-01-03,Weekly new hospital admissions,2973.0,Spain
-2023-01-04,Weekly new hospital admissions,2934.0,Spain
-2023-01-05,Weekly new hospital admissions,2950.0,Spain
-2023-01-06,Weekly new hospital admissions,2950.0,Spain
-2023-01-07,Weekly new hospital admissions,2958.0,Spain
-2023-01-08,Weekly new hospital admissions,3096.0,Spain
-2023-01-09,Weekly new hospital admissions,3063.0,Spain
-2023-01-10,Weekly new hospital admissions,2982.0,Spain
-2023-01-11,Weekly new hospital admissions,2936.0,Spain
-2023-01-12,Weekly new hospital admissions,2831.0,Spain
-2023-01-13,Weekly new hospital admissions,2730.0,Spain
-2023-01-14,Weekly new hospital admissions,2637.0,Spain
-2023-01-15,Weekly new hospital admissions,2491.0,Spain
-2023-01-16,Weekly new hospital admissions,2373.0,Spain
-2023-01-17,Weekly new hospital admissions,2293.0,Spain
-2023-01-18,Weekly new hospital admissions,2188.0,Spain
-2023-01-19,Weekly new hospital admissions,2083.0,Spain
-2023-01-20,Weekly new hospital admissions,1989.0,Spain
-2023-01-21,Weekly new hospital admissions,1896.0,Spain
-2023-01-22,Weekly new hospital admissions,1786.0,Spain
+2022-12-16,Weekly new hospital admissions,3562.0,Spain
+2022-12-17,Weekly new hospital admissions,3613.0,Spain
+2022-12-18,Weekly new hospital admissions,3471.0,Spain
+2022-12-19,Weekly new hospital admissions,3432.0,Spain
+2022-12-20,Weekly new hospital admissions,3354.0,Spain
+2022-12-21,Weekly new hospital admissions,3302.0,Spain
+2022-12-22,Weekly new hospital admissions,3225.0,Spain
+2022-12-23,Weekly new hospital admissions,3124.0,Spain
+2022-12-24,Weekly new hospital admissions,3035.0,Spain
+2022-12-25,Weekly new hospital admissions,3027.0,Spain
+2022-12-26,Weekly new hospital admissions,3035.0,Spain
+2022-12-27,Weekly new hospital admissions,3023.0,Spain
+2022-12-28,Weekly new hospital admissions,3046.0,Spain
+2022-12-29,Weekly new hospital admissions,3048.0,Spain
+2022-12-30,Weekly new hospital admissions,3058.0,Spain
+2022-12-31,Weekly new hospital admissions,3059.0,Spain
+2023-01-01,Weekly new hospital admissions,2998.0,Spain
+2023-01-02,Weekly new hospital admissions,3014.0,Spain
+2023-01-03,Weekly new hospital admissions,3036.0,Spain
+2023-01-04,Weekly new hospital admissions,3005.0,Spain
+2023-01-05,Weekly new hospital admissions,3021.0,Spain
+2023-01-06,Weekly new hospital admissions,3027.0,Spain
+2023-01-07,Weekly new hospital admissions,3042.0,Spain
+2023-01-08,Weekly new hospital admissions,3197.0,Spain
+2023-01-09,Weekly new hospital admissions,3146.0,Spain
+2023-01-10,Weekly new hospital admissions,3066.0,Spain
+2023-01-11,Weekly new hospital admissions,3014.0,Spain
+2023-01-12,Weekly new hospital admissions,2902.0,Spain
+2023-01-13,Weekly new hospital admissions,2797.0,Spain
+2023-01-14,Weekly new hospital admissions,2694.0,Spain
+2023-01-15,Weekly new hospital admissions,2525.0,Spain
+2023-01-16,Weekly new hospital admissions,2426.0,Spain
+2023-01-17,Weekly new hospital admissions,2350.0,Spain
+2023-01-18,Weekly new hospital admissions,2246.0,Spain
+2023-01-19,Weekly new hospital admissions,2152.0,Spain
+2023-01-20,Weekly new hospital admissions,2061.0,Spain
+2023-01-21,Weekly new hospital admissions,1970.0,Spain
+2023-01-22,Weekly new hospital admissions,1854.0,Spain
+2023-01-23,Weekly new hospital admissions,1750.0,Spain
+2023-01-24,Weekly new hospital admissions,1712.0,Spain
+2023-01-25,Weekly new hospital admissions,1633.0,Spain
+2023-01-26,Weekly new hospital admissions,1622.0,Spain
+2023-01-27,Weekly new hospital admissions,1608.0,Spain
+2023-01-28,Weekly new hospital admissions,1595.0,Spain
+2023-01-29,Weekly new hospital admissions,1620.0,Spain
+2023-01-30,Weekly new hospital admissions,1595.0,Spain
+2023-01-31,Weekly new hospital admissions,1535.0,Spain
+2023-02-01,Weekly new hospital admissions,1534.0,Spain
+2023-02-02,Weekly new hospital admissions,1517.0,Spain
+2023-02-03,Weekly new hospital admissions,1498.0,Spain
+2023-02-04,Weekly new hospital admissions,1475.0,Spain
+2023-02-05,Weekly new hospital admissions,1424.0,Spain
+2023-02-06,Weekly new hospital admissions,1424.0,Spain
+2023-02-07,Weekly new hospital admissions,1421.0,Spain
+2023-02-08,Weekly new hospital admissions,1396.0,Spain
+2023-02-09,Weekly new hospital admissions,1362.0,Spain
+2023-02-10,Weekly new hospital admissions,1330.0,Spain
+2023-02-11,Weekly new hospital admissions,1300.0,Spain
+2023-02-12,Weekly new hospital admissions,1310.0,Spain
+2023-02-13,Weekly new hospital admissions,1294.0,Spain
+2023-02-14,Weekly new hospital admissions,1296.0,Spain
+2023-02-15,Weekly new hospital admissions,1305.0,Spain
+2023-02-16,Weekly new hospital admissions,1317.0,Spain
+2023-02-17,Weekly new hospital admissions,1331.0,Spain
+2023-02-18,Weekly new hospital admissions,1345.0,Spain
+2023-02-19,Weekly new hospital admissions,1356.0,Spain
+2023-02-20,Weekly new hospital admissions,1393.0,Spain
+2023-02-21,Weekly new hospital admissions,1380.0,Spain
+2023-02-22,Weekly new hospital admissions,1394.0,Spain
+2023-02-23,Weekly new hospital admissions,1396.0,Spain
+2023-02-24,Weekly new hospital admissions,1394.0,Spain
+2023-02-25,Weekly new hospital admissions,1393.0,Spain
+2023-02-26,Weekly new hospital admissions,1403.0,Spain
+2023-02-27,Weekly new hospital admissions,1353.0,Spain
+2023-02-28,Weekly new hospital admissions,1376.0,Spain
+2023-03-01,Weekly new hospital admissions,1375.0,Spain
+2023-03-02,Weekly new hospital admissions,1398.0,Spain
+2023-03-03,Weekly new hospital admissions,1427.0,Spain
+2023-03-04,Weekly new hospital admissions,1451.0,Spain
+2023-03-05,Weekly new hospital admissions,1460.0,Spain
+2023-03-06,Weekly new hospital admissions,1535.0,Spain
+2023-03-07,Weekly new hospital admissions,1576.0,Spain
+2023-03-08,Weekly new hospital admissions,1659.0,Spain
+2023-03-09,Weekly new hospital admissions,1733.0,Spain
+2023-03-10,Weekly new hospital admissions,1808.0,Spain
+2023-03-11,Weekly new hospital admissions,1880.0,Spain
+2023-03-12,Weekly new hospital admissions,1923.0,Spain
+2023-03-13,Weekly new hospital admissions,1918.0,Spain
+2023-03-14,Weekly new hospital admissions,1875.0,Spain
+2023-03-15,Weekly new hospital admissions,1815.0,Spain
+2023-03-16,Weekly new hospital admissions,1744.0,Spain
+2023-03-17,Weekly new hospital admissions,1671.0,Spain
+2023-03-18,Weekly new hospital admissions,1607.0,Spain
+2023-03-19,Weekly new hospital admissions,1573.0,Spain
+2023-03-20,Weekly new hospital admissions,1566.0,Spain
+2023-03-21,Weekly new hospital admissions,1596.0,Spain
+2023-03-22,Weekly new hospital admissions,1609.0,Spain
+2023-03-23,Weekly new hospital admissions,1621.0,Spain
+2023-03-24,Weekly new hospital admissions,1626.0,Spain
+2023-03-25,Weekly new hospital admissions,1625.0,Spain
+2023-03-26,Weekly new hospital admissions,1629.0,Spain
+2023-03-27,Weekly new hospital admissions,1668.0,Spain
+2023-03-28,Weekly new hospital admissions,1662.0,Spain
+2023-03-29,Weekly new hospital admissions,1671.0,Spain
+2023-03-30,Weekly new hospital admissions,1662.0,Spain
+2023-03-31,Weekly new hospital admissions,1659.0,Spain
+2023-04-01,Weekly new hospital admissions,1665.0,Spain
+2023-04-02,Weekly new hospital admissions,1638.0,Spain
+2023-04-03,Weekly new hospital admissions,1592.0,Spain
+2023-04-04,Weekly new hospital admissions,1576.0,Spain
+2023-04-05,Weekly new hospital admissions,1557.0,Spain
+2023-04-06,Weekly new hospital admissions,1569.0,Spain
+2023-04-07,Weekly new hospital admissions,1582.0,Spain
+2023-04-08,Weekly new hospital admissions,1590.0,Spain
+2023-04-09,Weekly new hospital admissions,1664.0,Spain
+2023-04-10,Weekly new hospital admissions,1750.0,Spain
+2023-04-11,Weekly new hospital admissions,1801.0,Spain
+2023-04-12,Weekly new hospital admissions,1832.0,Spain
+2023-04-13,Weekly new hospital admissions,1856.0,Spain
+2023-04-14,Weekly new hospital admissions,1876.0,Spain
+2023-04-15,Weekly new hospital admissions,1895.0,Spain
+2023-04-16,Weekly new hospital admissions,1917.0,Spain
+2023-04-17,Weekly new hospital admissions,1896.0,Spain
+2023-04-18,Weekly new hospital admissions,1904.0,Spain
+2023-04-19,Weekly new hospital admissions,1919.0,Spain
+2023-04-20,Weekly new hospital admissions,1969.0,Spain
+2023-04-21,Weekly new hospital admissions,2025.0,Spain
+2023-04-22,Weekly new hospital admissions,2076.0,Spain
+2023-04-23,Weekly new hospital admissions,2087.0,Spain
+2023-04-24,Weekly new hospital admissions,2091.0,Spain
+2023-04-25,Weekly new hospital admissions,2096.0,Spain
+2023-04-26,Weekly new hospital admissions,2071.0,Spain
+2023-04-27,Weekly new hospital admissions,2034.0,Spain
+2023-04-28,Weekly new hospital admissions,2004.0,Spain
+2023-04-29,Weekly new hospital admissions,1979.0,Spain
+2023-04-30,Weekly new hospital admissions,1940.0,Spain
+2023-05-01,Weekly new hospital admissions,1936.0,Spain
+2023-05-02,Weekly new hospital admissions,1975.0,Spain
+2023-05-03,Weekly new hospital admissions,2064.0,Spain
+2023-05-04,Weekly new hospital admissions,2101.0,Spain
+2023-05-05,Weekly new hospital admissions,2125.0,Spain
+2023-05-06,Weekly new hospital admissions,2150.0,Spain
+2023-05-07,Weekly new hospital admissions,2201.0,Spain
+2023-05-08,Weekly new hospital admissions,2233.0,Spain
+2023-05-09,Weekly new hospital admissions,2209.0,Spain
+2023-05-10,Weekly new hospital admissions,2162.0,Spain
+2023-05-11,Weekly new hospital admissions,2103.0,Spain
+2023-05-12,Weekly new hospital admissions,2049.0,Spain
+2023-05-13,Weekly new hospital admissions,1995.0,Spain
+2023-05-14,Weekly new hospital admissions,1951.0,Spain
+2023-05-15,Weekly new hospital admissions,1911.0,Spain
+2023-05-16,Weekly new hospital admissions,1919.0,Spain
+2023-05-17,Weekly new hospital admissions,1918.0,Spain
+2023-05-18,Weekly new hospital admissions,1927.0,Spain
+2023-05-19,Weekly new hospital admissions,1937.0,Spain
+2023-05-20,Weekly new hospital admissions,1946.0,Spain
+2023-05-21,Weekly new hospital admissions,1939.0,Spain
+2023-05-22,Weekly new hospital admissions,1942.0,Spain
+2023-05-23,Weekly new hospital admissions,1903.0,Spain
+2023-05-24,Weekly new hospital admissions,1889.0,Spain
+2023-05-25,Weekly new hospital admissions,1886.0,Spain
+2023-05-26,Weekly new hospital admissions,1884.0,Spain
+2023-05-27,Weekly new hospital admissions,1880.0,Spain
+2023-05-28,Weekly new hospital admissions,1904.0,Spain
+2023-05-29,Weekly new hospital admissions,1868.0,Spain
+2023-05-30,Weekly new hospital admissions,1854.0,Spain
+2023-05-31,Weekly new hospital admissions,1832.0,Spain
+2023-06-01,Weekly new hospital admissions,1830.0,Spain
+2023-06-02,Weekly new hospital admissions,1822.0,Spain
+2023-06-03,Weekly new hospital admissions,1815.0,Spain
+2023-06-04,Weekly new hospital admissions,1782.0,Spain
+2023-06-05,Weekly new hospital admissions,1762.0,Spain
+2023-06-06,Weekly new hospital admissions,1724.0,Spain
+2023-06-07,Weekly new hospital admissions,1668.0,Spain
+2023-06-08,Weekly new hospital admissions,1602.0,Spain
+2023-06-09,Weekly new hospital admissions,1545.0,Spain
+2023-06-10,Weekly new hospital admissions,1494.0,Spain
+2023-06-11,Weekly new hospital admissions,1423.0,Spain
 2020-08-07,Weekly new ICU admissions,267.0,Spain
 2020-08-08,Weekly new ICU admissions,282.0,Spain
 2020-08-09,Weekly new ICU admissions,279.0,Spain
@@ -3572,38 +3992,178 @@ date,indicator,value,entity
 2022-12-16,Weekly new ICU admissions,220.0,Spain
 2022-12-17,Weekly new ICU admissions,213.0,Spain
 2022-12-18,Weekly new ICU admissions,197.0,Spain
-2022-12-19,Weekly new ICU admissions,203.0,Spain
-2022-12-20,Weekly new ICU admissions,198.0,Spain
+2022-12-19,Weekly new ICU admissions,202.0,Spain
+2022-12-20,Weekly new ICU admissions,197.0,Spain
 2022-12-21,Weekly new ICU admissions,191.0,Spain
 2022-12-22,Weekly new ICU admissions,194.0,Spain
-2022-12-23,Weekly new ICU admissions,199.0,Spain
-2022-12-24,Weekly new ICU admissions,201.0,Spain
-2022-12-25,Weekly new ICU admissions,202.0,Spain
-2022-12-26,Weekly new ICU admissions,189.0,Spain
-2022-12-27,Weekly new ICU admissions,189.0,Spain
-2022-12-28,Weekly new ICU admissions,190.0,Spain
-2022-12-29,Weekly new ICU admissions,182.0,Spain
-2022-12-30,Weekly new ICU admissions,174.0,Spain
-2022-12-31,Weekly new ICU admissions,169.0,Spain
-2023-01-01,Weekly new ICU admissions,168.0,Spain
-2023-01-02,Weekly new ICU admissions,171.0,Spain
-2023-01-03,Weekly new ICU admissions,172.0,Spain
-2023-01-04,Weekly new ICU admissions,168.0,Spain
-2023-01-05,Weekly new ICU admissions,171.0,Spain
-2023-01-06,Weekly new ICU admissions,172.0,Spain
-2023-01-07,Weekly new ICU admissions,174.0,Spain
-2023-01-08,Weekly new ICU admissions,171.0,Spain
-2023-01-09,Weekly new ICU admissions,165.0,Spain
-2023-01-10,Weekly new ICU admissions,164.0,Spain
-2023-01-11,Weekly new ICU admissions,162.0,Spain
-2023-01-12,Weekly new ICU admissions,157.0,Spain
-2023-01-13,Weekly new ICU admissions,153.0,Spain
-2023-01-14,Weekly new ICU admissions,148.0,Spain
+2022-12-23,Weekly new ICU admissions,200.0,Spain
+2022-12-24,Weekly new ICU admissions,203.0,Spain
+2022-12-25,Weekly new ICU admissions,206.0,Spain
+2022-12-26,Weekly new ICU admissions,195.0,Spain
+2022-12-27,Weekly new ICU admissions,196.0,Spain
+2022-12-28,Weekly new ICU admissions,196.0,Spain
+2022-12-29,Weekly new ICU admissions,188.0,Spain
+2022-12-30,Weekly new ICU admissions,179.0,Spain
+2022-12-31,Weekly new ICU admissions,174.0,Spain
+2023-01-01,Weekly new ICU admissions,172.0,Spain
+2023-01-02,Weekly new ICU admissions,177.0,Spain
+2023-01-03,Weekly new ICU admissions,179.0,Spain
+2023-01-04,Weekly new ICU admissions,176.0,Spain
+2023-01-05,Weekly new ICU admissions,180.0,Spain
+2023-01-06,Weekly new ICU admissions,183.0,Spain
+2023-01-07,Weekly new ICU admissions,186.0,Spain
+2023-01-08,Weekly new ICU admissions,184.0,Spain
+2023-01-09,Weekly new ICU admissions,175.0,Spain
+2023-01-10,Weekly new ICU admissions,172.0,Spain
+2023-01-11,Weekly new ICU admissions,168.0,Spain
+2023-01-12,Weekly new ICU admissions,162.0,Spain
+2023-01-13,Weekly new ICU admissions,156.0,Spain
+2023-01-14,Weekly new ICU admissions,149.0,Spain
 2023-01-15,Weekly new ICU admissions,142.0,Spain
-2023-01-16,Weekly new ICU admissions,149.0,Spain
-2023-01-17,Weekly new ICU admissions,141.0,Spain
+2023-01-16,Weekly new ICU admissions,148.0,Spain
+2023-01-17,Weekly new ICU admissions,140.0,Spain
 2023-01-18,Weekly new ICU admissions,138.0,Spain
 2023-01-19,Weekly new ICU admissions,129.0,Spain
 2023-01-20,Weekly new ICU admissions,120.0,Spain
 2023-01-21,Weekly new ICU admissions,112.0,Spain
-2023-01-22,Weekly new ICU admissions,112.0,Spain
+2023-01-22,Weekly new ICU admissions,111.0,Spain
+2023-01-23,Weekly new ICU admissions,100.0,Spain
+2023-01-24,Weekly new ICU admissions,94.0,Spain
+2023-01-25,Weekly new ICU admissions,86.0,Spain
+2023-01-26,Weekly new ICU admissions,89.0,Spain
+2023-01-27,Weekly new ICU admissions,89.0,Spain
+2023-01-28,Weekly new ICU admissions,89.0,Spain
+2023-01-29,Weekly new ICU admissions,94.0,Spain
+2023-01-30,Weekly new ICU admissions,98.0,Spain
+2023-01-31,Weekly new ICU admissions,107.0,Spain
+2023-02-01,Weekly new ICU admissions,109.0,Spain
+2023-02-02,Weekly new ICU admissions,106.0,Spain
+2023-02-03,Weekly new ICU admissions,104.0,Spain
+2023-02-04,Weekly new ICU admissions,102.0,Spain
+2023-02-05,Weekly new ICU admissions,89.0,Spain
+2023-02-06,Weekly new ICU admissions,77.0,Spain
+2023-02-07,Weekly new ICU admissions,67.0,Spain
+2023-02-08,Weekly new ICU admissions,59.0,Spain
+2023-02-09,Weekly new ICU admissions,57.0,Spain
+2023-02-10,Weekly new ICU admissions,57.0,Spain
+2023-02-11,Weekly new ICU admissions,56.0,Spain
+2023-02-12,Weekly new ICU admissions,60.0,Spain
+2023-02-13,Weekly new ICU admissions,73.0,Spain
+2023-02-14,Weekly new ICU admissions,79.0,Spain
+2023-02-15,Weekly new ICU admissions,84.0,Spain
+2023-02-16,Weekly new ICU admissions,86.0,Spain
+2023-02-17,Weekly new ICU admissions,88.0,Spain
+2023-02-18,Weekly new ICU admissions,90.0,Spain
+2023-02-19,Weekly new ICU admissions,89.0,Spain
+2023-02-20,Weekly new ICU admissions,78.0,Spain
+2023-02-21,Weekly new ICU admissions,70.0,Spain
+2023-02-22,Weekly new ICU admissions,74.0,Spain
+2023-02-23,Weekly new ICU admissions,74.0,Spain
+2023-02-24,Weekly new ICU admissions,74.0,Spain
+2023-02-25,Weekly new ICU admissions,74.0,Spain
+2023-02-26,Weekly new ICU admissions,70.0,Spain
+2023-02-27,Weekly new ICU admissions,70.0,Spain
+2023-02-28,Weekly new ICU admissions,73.0,Spain
+2023-03-01,Weekly new ICU admissions,69.0,Spain
+2023-03-02,Weekly new ICU admissions,74.0,Spain
+2023-03-03,Weekly new ICU admissions,78.0,Spain
+2023-03-04,Weekly new ICU admissions,83.0,Spain
+2023-03-05,Weekly new ICU admissions,92.0,Spain
+2023-03-06,Weekly new ICU admissions,96.0,Spain
+2023-03-07,Weekly new ICU admissions,105.0,Spain
+2023-03-08,Weekly new ICU admissions,105.0,Spain
+2023-03-09,Weekly new ICU admissions,98.0,Spain
+2023-03-10,Weekly new ICU admissions,91.0,Spain
+2023-03-11,Weekly new ICU admissions,82.0,Spain
+2023-03-12,Weekly new ICU admissions,78.0,Spain
+2023-03-13,Weekly new ICU admissions,80.0,Spain
+2023-03-14,Weekly new ICU admissions,74.0,Spain
+2023-03-15,Weekly new ICU admissions,74.0,Spain
+2023-03-16,Weekly new ICU admissions,79.0,Spain
+2023-03-17,Weekly new ICU admissions,85.0,Spain
+2023-03-18,Weekly new ICU admissions,92.0,Spain
+2023-03-19,Weekly new ICU admissions,99.0,Spain
+2023-03-20,Weekly new ICU admissions,96.0,Spain
+2023-03-21,Weekly new ICU admissions,94.0,Spain
+2023-03-22,Weekly new ICU admissions,95.0,Spain
+2023-03-23,Weekly new ICU admissions,91.0,Spain
+2023-03-24,Weekly new ICU admissions,87.0,Spain
+2023-03-25,Weekly new ICU admissions,84.0,Spain
+2023-03-26,Weekly new ICU admissions,79.0,Spain
+2023-03-27,Weekly new ICU admissions,80.0,Spain
+2023-03-28,Weekly new ICU admissions,82.0,Spain
+2023-03-29,Weekly new ICU admissions,77.0,Spain
+2023-03-30,Weekly new ICU admissions,75.0,Spain
+2023-03-31,Weekly new ICU admissions,72.0,Spain
+2023-04-01,Weekly new ICU admissions,69.0,Spain
+2023-04-02,Weekly new ICU admissions,65.0,Spain
+2023-04-03,Weekly new ICU admissions,63.0,Spain
+2023-04-04,Weekly new ICU admissions,61.0,Spain
+2023-04-05,Weekly new ICU admissions,62.0,Spain
+2023-04-06,Weekly new ICU admissions,64.0,Spain
+2023-04-07,Weekly new ICU admissions,66.0,Spain
+2023-04-08,Weekly new ICU admissions,68.0,Spain
+2023-04-09,Weekly new ICU admissions,71.0,Spain
+2023-04-10,Weekly new ICU admissions,72.0,Spain
+2023-04-11,Weekly new ICU admissions,76.0,Spain
+2023-04-12,Weekly new ICU admissions,82.0,Spain
+2023-04-13,Weekly new ICU admissions,86.0,Spain
+2023-04-14,Weekly new ICU admissions,90.0,Spain
+2023-04-15,Weekly new ICU admissions,94.0,Spain
+2023-04-16,Weekly new ICU admissions,92.0,Spain
+2023-04-17,Weekly new ICU admissions,93.0,Spain
+2023-04-18,Weekly new ICU admissions,92.0,Spain
+2023-04-19,Weekly new ICU admissions,92.0,Spain
+2023-04-20,Weekly new ICU admissions,94.0,Spain
+2023-04-21,Weekly new ICU admissions,96.0,Spain
+2023-04-22,Weekly new ICU admissions,98.0,Spain
+2023-04-23,Weekly new ICU admissions,103.0,Spain
+2023-04-24,Weekly new ICU admissions,105.0,Spain
+2023-04-25,Weekly new ICU admissions,100.0,Spain
+2023-04-26,Weekly new ICU admissions,95.0,Spain
+2023-04-27,Weekly new ICU admissions,91.0,Spain
+2023-04-28,Weekly new ICU admissions,87.0,Spain
+2023-04-29,Weekly new ICU admissions,84.0,Spain
+2023-04-30,Weekly new ICU admissions,81.0,Spain
+2023-05-01,Weekly new ICU admissions,78.0,Spain
+2023-05-02,Weekly new ICU admissions,85.0,Spain
+2023-05-03,Weekly new ICU admissions,92.0,Spain
+2023-05-04,Weekly new ICU admissions,96.0,Spain
+2023-05-05,Weekly new ICU admissions,99.0,Spain
+2023-05-06,Weekly new ICU admissions,101.0,Spain
+2023-05-07,Weekly new ICU admissions,112.0,Spain
+2023-05-08,Weekly new ICU admissions,111.0,Spain
+2023-05-09,Weekly new ICU admissions,111.0,Spain
+2023-05-10,Weekly new ICU admissions,104.0,Spain
+2023-05-11,Weekly new ICU admissions,103.0,Spain
+2023-05-12,Weekly new ICU admissions,103.0,Spain
+2023-05-13,Weekly new ICU admissions,103.0,Spain
+2023-05-14,Weekly new ICU admissions,105.0,Spain
+2023-05-15,Weekly new ICU admissions,114.0,Spain
+2023-05-16,Weekly new ICU admissions,112.0,Spain
+2023-05-17,Weekly new ICU admissions,117.0,Spain
+2023-05-18,Weekly new ICU admissions,121.0,Spain
+2023-05-19,Weekly new ICU admissions,125.0,Spain
+2023-05-20,Weekly new ICU admissions,130.0,Spain
+2023-05-21,Weekly new ICU admissions,122.0,Spain
+2023-05-22,Weekly new ICU admissions,120.0,Spain
+2023-05-23,Weekly new ICU admissions,129.0,Spain
+2023-05-24,Weekly new ICU admissions,128.0,Spain
+2023-05-25,Weekly new ICU admissions,124.0,Spain
+2023-05-26,Weekly new ICU admissions,120.0,Spain
+2023-05-27,Weekly new ICU admissions,115.0,Spain
+2023-05-28,Weekly new ICU admissions,113.0,Spain
+2023-05-29,Weekly new ICU admissions,113.0,Spain
+2023-05-30,Weekly new ICU admissions,106.0,Spain
+2023-05-31,Weekly new ICU admissions,106.0,Spain
+2023-06-01,Weekly new ICU admissions,103.0,Spain
+2023-06-02,Weekly new ICU admissions,99.0,Spain
+2023-06-03,Weekly new ICU admissions,95.0,Spain
+2023-06-04,Weekly new ICU admissions,95.0,Spain
+2023-06-05,Weekly new ICU admissions,92.0,Spain
+2023-06-06,Weekly new ICU admissions,87.0,Spain
+2023-06-07,Weekly new ICU admissions,85.0,Spain
+2023-06-08,Weekly new ICU admissions,87.0,Spain
+2023-06-09,Weekly new ICU admissions,90.0,Spain
+2023-06-10,Weekly new ICU admissions,93.0,Spain
+2023-06-11,Weekly new ICU admissions,90.0,Spain

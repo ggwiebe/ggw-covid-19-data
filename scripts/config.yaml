@@ -20,6 +20,8 @@ pipeline:
         # - Denmark  # Moved to ECDC
         # - Colombia  # Moved to PAHO
         # - Vietnam  # Moved to WHO
+        - austria_old # using ECDC
+        - austria # using ECDC
         - Sri Lanka # Moved to WHO
         - Ukraine # Moved to WHO
         - Portugal # Temporary moved to ECDC
@@ -43,6 +45,16 @@ pipeline:
         - Bahrain
         - Pakistan # Moved to WHO
         - South Africa # Moved to WHO
+        # - Japan # Moved to WHO
+        - Denmark # Moved to ECDC
+
+        # No longer publishing data or page unavailable
+        - Guernsey # No longer publishing data
+        - Greenland # No longer publishing data
+        - Kosovo # Page not available
+        - Turkey # Blocked external IP
+        - Curacao # Moved to PAHO
+        - Australia # Moved to WHO
     process:
       skip_complete:
         - Pitcairn
@@ -69,7 +81,7 @@ pipeline:
           - date: 2021-12-14
             metrics: total_boosters
         Luxembourg:
-          - date: 2023-01-08
+          - date: 2023-05-14
             metrics: people_fully_vaccinated
         Nigeria:
           - date: 2021-06-15

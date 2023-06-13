@@ -3,6 +3,7 @@ from sys import modules
 import time
 import importlib
 import json
+from datetime import date
 
 from joblib import Parallel, delayed
 import pandas as pd
@@ -137,7 +138,7 @@ class HospETL:
             )
         ]
         # Check
-        duplicates = df[df.duplicated(subset=["date", "entity", "indicator"])]
+        duplicates = df[df.duplicated(subset=["date", "entity", "indicator"], keep=False)]
         if len(duplicates) > 0:
             raise Exception(f"Some entity-date-indicator combinations are present more than once! {duplicates}")
 
@@ -188,7 +189,14 @@ class HospETL:
                 "Weekly new ICU admissions",
             }
         ).all(), "One of the indicators for this country is not recognized!"
+        # check date
         assert is_string_dtype(df.date), "The date column is not a string!"
+        dt = date.today().strftime("%Y-%m-%d")
+        if (msk := df["date"] > dt).any():
+            ent = df.loc[msk, "entity"].values[0]
+            dt = set(df.loc[msk, "date"])
+            error_msg = f"The date column contains dates in the future! Entity `{ent}` has date(s): `{dt}`"
+            raise ValueError(error_msg)
 
     def _build_time_df(self, execution):
         """Build execution time dataframe."""

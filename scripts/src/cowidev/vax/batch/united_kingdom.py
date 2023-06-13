@@ -4,6 +4,15 @@ from uk_covid19 import Cov19API
 from cowidev.vax.utils.base import CountryVaxBase
 
 
+UK_AND_NATIONS = [
+    "United Kingdom",
+    "England",
+    "Scotland",
+    "Wales",
+    "Northern Ireland",
+]
+
+
 class UnitedKingdom(CountryVaxBase):
     location = "United Kingdom"
     source_url = "https://coronavirus.data.gov.uk/details/vaccinations"
@@ -56,6 +65,23 @@ class UnitedKingdom(CountryVaxBase):
         #     df["total_vaccinations"] - df["people_vaccinated"] - df["people_fully_vaccinated"] - df["total_boosters"]
         # ).fillna(0)
         df = df.assign(total_boosters=df["total_boosters"] + autum22_boosters)
+        # Remove booster outliers
+        df = self.booster_data_underestimate_remove(df)
+        return df
+
+    def booster_data_underestimate_remove(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Autumn boosters are missing from a date onwards. We should not estimate booster values after that date, as it will be an underestimate."""
+        NATIONS_FIX = ["Northern Ireland"]
+        for region in NATIONS_FIX:
+            msk = df["location"] == region
+            df_region = df[msk].copy()
+            msk_missing_autumn_boosters = df_region["vaccinations_age"].apply(lambda x: x is not None and x == [])
+            dates = df_region[msk_missing_autumn_boosters].date.sort_values()
+            days = pd.to_datetime(dates).diff()
+            df_dates = pd.DataFrame({"date": dates, "days": days.dt.days})
+            date_limit = df_dates[df_dates["days"] != 1].iloc[-1]["date"]
+            df_region.loc[df_region["date"] >= date_limit, "total_boosters"] = None
+            df = pd.concat([df[~msk], df_region], ignore_index=True)
         return df
 
     def pipe_select_output_cols(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -99,12 +125,24 @@ class UnitedKingdom(CountryVaxBase):
             "Wales": 48,
             "Northern Ireland": 300,
         }
-
+        # Dates to filter by nation
+        dates_filter = {
+            "Northern Ireland": ["2023-02-03"],
+            "Wales": ["2023-03-01"],
+        }
         for location in set(df_base.location):
-            df = df_base.pipe(self._filter_location, location).pipe(
-                self.make_monotonic, max_removed_rows=max_removed_rows_dict[location]
-            )
-            self.export_datafile(df, filename=location)
+            # TODO: There is an error in UK data. Drop from 2022-09-11 to 2023-04-03
+            if location != "United Kingdom":
+                df = df_base.pipe(self._filter_location, location)
+                if location in dates_filter:
+                    df = df[~df.date.isin(dates_filter[location])]
+                try:
+                    # df = df
+                    df = df.pipe(self.make_monotonic, max_removed_rows=max_removed_rows_dict[location])
+                except Exception as e:
+                    print(df.tail(20))
+                    raise (e)
+                self.export_datafile(df, filename=location)
 
 
 def _sum_all_autumn_boosters_age(vaccinations_age):

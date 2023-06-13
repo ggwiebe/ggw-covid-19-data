@@ -44,12 +44,14 @@ class HongKong(CountryVaxBase):
                 "Sinovac 4th dose",
                 "Sinovac 5th dose",
                 "Sinovac 6th dose",
+                'Sinovac 7th dose',
                 "BioNTech 1st dose",
                 "BioNTech 2nd dose",
                 "BioNTech 3rd dose",
                 "BioNTech 4th dose",
                 "BioNTech 5th dose",
                 "BioNTech 6th dose",
+                'BioNTech 7th dose',
             ],
         )
         return df
@@ -103,7 +105,7 @@ class HongKong(CountryVaxBase):
         )
 
     def pipe_filter_dp(self, df: pd.DataFrame) -> pd.DataFrame:
-        msk = df.date.isin(["2021-10-13", "2022-02-01"])
+        msk = df.date.isin(["2021-10-13", "2022-02-01", "2023-01-22", "2023-01-23"])
         return df[~msk]
 
     def pipeline(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -129,8 +131,10 @@ class HongKong(CountryVaxBase):
         )
 
     def pipe_filter_manuf_dp(self, df):
-        msk_sin = (df.vaccine == "Sinovac") & df.date.isin(["2021-10-13", "2022-01-31"])
-        msk_pfi = (df.vaccine == "Pfizer/BioNTech") & df.date.isin(["2021-10-13", "2022-02-01"])
+        msk_sin = (df.vaccine == "Sinovac") & df.date.isin(["2021-10-13", "2022-01-31", "2023-01-22", "2023-01-23"])
+        msk_pfi = (df.vaccine == "Pfizer/BioNTech") & df.date.isin(
+            ["2021-10-13", "2022-02-01", "2023-01-22", "2023-01-23"]
+        )
         return df[~(msk_sin | msk_pfi)]
 
     def pipe_age_checks(self, df: pd.DataFrame):
@@ -182,8 +186,26 @@ class HongKong(CountryVaxBase):
             .assign(location=self.location)
         )
 
+    def check_number_age_groups_latest(self, df: pd.DataFrame, raise_error: bool = False):
+        """Check that there are 9 age groups in the 10 latest dates. If not, raise an error."""
+        x = df.groupby("date").age_group.nunique()
+        x = df.groupby("date").age_group.nunique()
+        wrong_rows = x.tail(10)[x < 9]
+        if wrong_rows.any():
+            wrong_dates = wrong_rows.index.tolist()
+            df = df[~df["date"].isin(wrong_dates)]
+            if raise_error:
+                raise ValueError(f"Missing age groups! Check dates {wrong_rows.index.tolist()}")
+        # Ignore dates
+        df = df[~df["date"].isin(["2023-01-21"])]
+        return df
+
     def export(self):
         df_base = self.read().pipe(self.pipeline_base)
+        # Check on age groups
+        df_base = self.check_number_age_groups_latest(df_base)
+        # Filter date
+        df_base = df_base[~df_base["date"].isin(["2023-05-21"])]
         # Main data
         df = df_base.pipe(self.pipeline)
         # Manufacturer
